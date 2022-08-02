@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/*header*/
+
+
+nav{
+    width: 100%;
+    overflow: auto;
+    background: black;
+    
+}
+ul{
+    margin: 0 0 0 250px;
+    padding: 0;
+}
+li{
+    float: left;
+    text-align: center;
+}
+li a{
+    display: block;
+    width: 100%;
+    padding: 20px 15px;
+    color: white;
+}
+li a:hover{
+    background: grey;
+}
+.logo img{
+    position: absolute;
+    margin-left: 10px;
+}
+
+
+/*main*/
+.container{
+    width: 300px;
+    height: 270px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    float: left;
+    
+}
+
+
+h3{
+    margin-top:50px;
+    margin-left: 110px;
+    margin-bottom: 50px;
+}
+.section{ 
+    float: left;
+    margin-right: 120px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+}
+.hearticon{
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/like.png);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    position: absolute;
+    top:0;
+    right: 0;  
+}
+.waveicon{
+    width: 65px;
+    height: 65px;
+    background-image: url(../img/wave-sound.png);
+    background-size: 100%;
+    float: left;
+    margin-top: 70px;
+    margin-left: 8px; 
+      
+}
+.trackname{
+    font-size: 24px;
+    font-weight: 500;  
+    position: absolute;
+    top:150px;
+    left: 15px; 
+}
+.artist{
+    font-size: 16px;
+    margin-top: 15px;
+}
+.box{
+    width: 300px;
+    height: 240px;
+    border:2px solid #000000;
+    
+}
+.anotherpage{
+    margin-top: 10px;
+}
+.anotherpage p a{
+    color: #000000;
+}
+
+
+footer{
+    width: 100%;
+    height: 354px;
+    background-color: #000000;
+    clear: both;
+    padding-top: 20px;
+    
+}
+
+.footer{
+    clear: both;
+    width: 100%;
+   
+}
+ol{
+    padding-top: 10px;
+   margin-left: 600px;
+    
+    
+}
+.allrights{
+    color: #ffffff;
+    margin-top: 100px;
+    text-align: center;
+    
+}
+.social{
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    top:200px
+    
+}
+.facebook{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.insta{
+    width: 100px;
+    height: 100px;
+    background-image: url(../img/instagram.png);
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+.logooo img{
+    margin-left: 700px;
+}
+.logooo a{
+    display: block;
+}
+
+.playlist{
+    width: 280px;
+    height: 360px;
+    float: left;
+    text-align: center;
+    margin: 51px 157px 217px 109px;
+}
+h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p{
+    padding: 5px;
+}
+
+.waves{
+    width: 250px;
+    height: 65px;
+    background-image: url(../img/wave-sound.png);
+    background-repeat: repeat-x;
+    margin: 50px 600px 100px 600px;
+    clear: both;
+}
+.playlist1{
+    float: left;
+    margin: 100px 44px 100px 44px;
+}
+.thanks p{
+    text-align: center;
+    padding: 100px;
+    font-size: 25px;
+    margin: 20px 500px 50px 500px;
+}
+
+
+
